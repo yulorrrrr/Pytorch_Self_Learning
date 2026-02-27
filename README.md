@@ -10,7 +10,7 @@ The content covers:
   4. RNN-based text generation algorithms
 
 📅Daily Learning Breakdown:
-  📌Day01:
+  📌Day01: 
     🎯Learning Objectives
       1. Understand what a Tensor is
       2. Learn basic tensor creation methods
