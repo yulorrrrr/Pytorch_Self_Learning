@@ -36,3 +36,13 @@
       5. Learn how to detach tensors from computation graphs
       6. Simulate a simple linear regression training process
       7. Understand forward pass → loss calculation → backward update workflow
+
+- 📌Day04: 
+  - 🎯Learning Objectives:
+    1. Understand the role of loss functions in evaluating model performance.
+    2. Learn regression losses: MAE, MSE, and Smooth L1.
+    3. Understand Binary Cross-Entropy and Multi-class Cross-Entropy for classification.
+    4. Learn how CrossEntropyLoss combines Softmax and loss computation.
+    5. Build a simple neural network in PyTorch using nn.Module.
+    6. Understand the forward pass workflow: weighted sum → activation → output.
+    7. Learn common parameter initialization methods (Random, Xavier, Kaiming).
