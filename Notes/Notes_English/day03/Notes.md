@@ -2,7 +2,7 @@
 
 ## 1 Building a Linear Regression Model with PyTorch
 
-### 1.1 Creating the Dataset
+### 1.1 Create Dataset
 
 ```python
 import torch
@@ -444,4 +444,5 @@ if __name__ == '__main__':
 - Shallow networks → random initialization
 - Deep networks → choose based on activation function:
   - tanh → Xavier initialization
+
   - ReLU → Kaiming initialization
