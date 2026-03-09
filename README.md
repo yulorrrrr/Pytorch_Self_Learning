@@ -46,3 +46,14 @@
     5. Build a simple neural network in PyTorch using nn.Module.
     6. Understand the forward pass workflow: weighted sum → activation → output.
     7. Learn common parameter initialization methods (Random, Xavier, Kaiming).
+
+- 📌Day05: 
+  - 🎯Learning Objectives:
+    1. Understand how learning rate affects gradient updates and model convergence.
+    2. Learn learning rate decay strategies: StepLR, MultiStepLR, and ExponentialLR.
+    3. Understand optimization algorithms: Momentum, AdaGrad, RMSProp, and Adam.
+    4. Learn Exponential Moving Average (EMA) and its role in smoothing gradients.
+    5. Understand regularization techniques to reduce overfitting.
+    6. Learn Dropout and how random neuron deactivation improves generalization.
+    7. Understand Batch Normalization and how it stabilizes training.
+    8. Apply these techniques in an ANN example for mobile phone price classification.
