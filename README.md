@@ -57,3 +57,11 @@
     6. Learn Dropout and how random neuron deactivation improves generalization.
     7. Understand Batch Normalization and how it stabilizes training.
     8. Apply these techniques in an ANN example for mobile phone price classification.
+      
+- 📌Day06
+  - 🎯 Learning Objectives:
+    1. Understand different image types (binary, grayscale, RGB) and how images are represented in arrays.
+    2. Learn to create and visualize images using NumPy and Matplotlib.
+    3. Understand the structure of Convolutional Neural Networks (CNN): convolution layer, pooling layer, and fully connected layer.
+    4. Learn how convolution layers extract image features and generate feature maps.
+    5. Understand pooling operations (max pooling and average pooling) for dimensionality reduction.
