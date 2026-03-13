@@ -27,8 +27,8 @@ Pooling Layer:
     Pooling only changes the height and width (H, W) of the feature map, but the number of channels does not change.
 
 Optimization method:
-    1. add the number of convolutional kernal
-    2. add the number of funnly connect layers
+    1. add the number of convolutional kernel
+    2. add the number of fully connect layers
     3. change learning rate
     4. change optimizer
     5. change activation function
@@ -107,7 +107,7 @@ class ImageModel(nn.Module):
 
         # layer5:  output layer(weighted sum) + activation function (softmax)
         #(only need weighted sum, since the loss function will apply softmax)
-        return self.output(x)  #later use CrossEntropyLoss = softmax() + Loss conputation
+        return self.output(x)  #later use CrossEntropyLoss = softmax() + Loss computation
 
 
 #3. Train the model.
@@ -221,6 +221,7 @@ if __name__ == '__main__':
 
     #4. model testing
     evaluate(test_data)
+
 
 
 
